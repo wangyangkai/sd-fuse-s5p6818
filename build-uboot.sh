@@ -21,7 +21,8 @@ set -eu
 true ${SOC:=s5p6818}
 true ${DISABLE_MKIMG:=0}
 
-UBOOT_REPO=https://github.com/friendlyarm/u-boot
+UBOOT_REPO=https://github.com/wangyangkai/s5p6818-uboot.git
+
 UBOOT_BRANCH=nanopi2-v2016.01
 
 ARCH=arm64
@@ -141,7 +142,7 @@ fi
 # fi  
 
 cd ${UBOOT_SRC}
-make distclean
+#make distclean
 make ${UCFG}
 make CROSS_COMPILE=${CROSS_COMPILER} -j$(nproc)
 

@@ -23,7 +23,7 @@ true ${SOC:=s5p6818}
 true ${DISABLE_MKIMG:=0}
 true ${LOGO:=}
 
-KERNEL_REPO=https://github.com/friendlyarm/linux
+KERNEL_REPO=https://github.com/wangyangkai/s5p6818-linux.git
 KERNEL_BRANCH=nanopi2-v4.4.y
 
 ARCH=arm64
@@ -134,7 +134,7 @@ fi
 export PATH=/opt/FriendlyARM/toolchain/6.4-aarch64/bin/:$PATH
 
 cd ${KERNEL_SRC}
-make distclean
+#make distclean
 touch .scmversion
 make ARCH=${ARCH} ${KCFG}
 if [ $? -ne 0 ]; then
