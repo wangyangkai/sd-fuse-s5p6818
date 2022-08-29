@@ -53,3 +53,10 @@
 # cscope files
 cscope.*
 
+# gtags
+GPATH
+GRTAGS
+GTAGS
+gtags.files
+
+
