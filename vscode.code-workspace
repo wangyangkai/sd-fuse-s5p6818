@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "out/kernel-s5p6818"
+		},
+		{
+			"path": "out/kernel-s5p6818/arch/arm64/boot/dts/nexell"
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true,
+		"commentTranslate.source": "Bing",
+		"commentTranslate.multiLineMerge": false
+	}
+}
