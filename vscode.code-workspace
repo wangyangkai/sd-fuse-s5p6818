@@ -5,6 +5,9 @@
 		},
 		{
 			"path": "out/kernel-s5p6818/arch/arm64/boot/dts/nexell"
+		},
+		{
+			"path": "."
 		}
 	],
 	"settings": {
